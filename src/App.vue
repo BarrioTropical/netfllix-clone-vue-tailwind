@@ -83,8 +83,8 @@
         <ChevronLeft fillColor="#FFFFFF" :size="40"/>
       </div>
       <video 
+        autoplay
         :src="'/videos/'+movie.name+'.mp4'" 
-        autoplay 
         loop
         controls
         class="absolute z-0 w-[100vw] h-full object-fit"
